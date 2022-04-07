@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fds"
+version = "0.1.0"
+description = ""
+authors = ["J. Tipan Verella <tverella@tunein.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.3.3"
+pandas = "^1.4.2"
+statsmodels = "^0.13.2"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
